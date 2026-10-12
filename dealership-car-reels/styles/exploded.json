@@ -1,0 +1,36 @@
+{
+  "name": "exploded",
+  "prompt": "Premium vertical product film featuring the exact {vehicle} shown in the reference photos: {look}. Keep the vehicle's design, proportions, badges and wheels identical to the references.\nCompose every shot with the vehicle in the upper two thirds of the frame and plain ground or floor in the lower third. The whole vehicle stays fully visible in exterior shots, never cropped.\nOne continuous shot in a clean, dark studio with a glossy floor and soft overhead light, camera wide with a slow orbit; every part stays inside the frame.\nThe very first frame is already in motion: the vehicle is bursting apart.\n0-1.5s: in one sharp, satisfying snap the vehicle separates into an exploded view, like a technical diagram come to life: body panels, doors, hood, tailgate, glass, wheels, seats, headlights and tail lights shoot outward and stop dead, floating in mid air, evenly spaced around the chassis, each part clean and intact.\n1.5-5.5s: the parts hang weightless and rotate very slightly as the camera drifts past them, light glinting on each piece.\n5.5-8s: every part glides back in and clicks into place in quick sequence until the vehicle is whole again exactly as in the references.\n8-10s: the lights switch on, final hero pose in a front three-quarter view.\nPhotoreal, precise, elegant, smooth mechanical motion, no chaos, no damage, no debris, no sparks. No people. No on-screen text, no captions, no subtitles, no labels, no logos other than those on the vehicle, no license plate text. Audio: realistic sound effects only: a sharp mechanical snap at the start, soft servo whirs, crisp clicks as parts lock in, a low thunk when it is whole. Absolutely no music, no voices.",
+  "captions": [
+    {
+      "lines": [
+        "WHAT'S INSIDE?"
+      ],
+      "start": 0,
+      "end": 1.6
+    },
+    {
+      "lines": [
+        "Every piece in its place."
+      ],
+      "start": 2.2,
+      "end": 4.6
+    },
+    {
+      "lines": [
+        "All of it built",
+        "around your people."
+      ],
+      "start": 5.2,
+      "end": 7.4
+    }
+  ],
+  "end_card": {
+    "start": 8.0,
+    "kicker": "THE {VEHICLE}",
+    "headline": [
+      "See it all together",
+      "in person."
+    ]
+  }
+}
