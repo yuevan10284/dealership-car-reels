@@ -278,7 +278,8 @@ def compose(src, out, layers, music):
     audio = ["-map", "0:a?", "-c:a", "copy"]
     if music:
         m = len(layers) + 1
-        cmd += ["-stream_loop", "-1", "-i", str(music)]
+        # Loop a short bed, but bound it: an endless input can leave ffmpeg waiting at the end.
+        cmd += ["-stream_loop", "-1", "-t", f"{dur + 1:.2f}", "-i", str(music)]
         bed = f"[{m}:a]atrim=0:{dur:.2f},afade=t=out:st={dur - 0.8:.2f}:d=0.8"
         if has_audio:  # keep the clip's own sound effects on top of the music bed
             chain += [bed + ",volume=0.75[bed]", "[0:a]volume=1.0[sfx]",
